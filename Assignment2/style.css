@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+.img-logo{
+    object-fit:fill;
+    height: 50px; 
+    width:100px;
+}
+
+.container{
+    display: flex;
+    margin-left: 0;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    margin-right: 40px;
+    align-items: flex-start;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(7, 145, 192);
+    display: flex;
+    
+}
+a:hover{
+    color:dimgrey;
+}
+.username{
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(7,145,192);
+    background-color:rgba(0, 123, 255, 0.15);;
+    /* opacity: 0.5; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.username:hover{
+    background-color: rgb(7,145,192);
+    color: aliceblue;
+}
+.main-div{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    height: calc(100vh-70px);
+}
+/* .left-div{
+    margin-left: 65px;
+} */
+.left-div,.right-div{
+    width: 50%;
+    padding: 0 5vw;
+
+}
+.left-div-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    color: rgb(77, 73, 73);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.right-div-pic{
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+}
+.left-div-description{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142, 138, 138);
+    margin-left: 10px;
+}
+.clr{
+    color: rgb(7,145,192);
+    margin-top: 0;
+}
+.left-div-btn{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 40px;
+    width:200px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: rgb(7,145,192);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+.left-div-btn:hover{
+    background-color: grey;
+    color:aliceblue ;
+}
